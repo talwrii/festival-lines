@@ -1,0 +1,27 @@
+# festival-lines
+
+Wrapper around [festival](http://festvox.org/festival/) to use from the command line.
+
+As of 2018-01-11, the dependency [pyfestival](https://pypi.python.org/pypi/pyfestival) appears to only works with python2
+(limited attempts to debug)
+
+# Installing
+
+```
+pip install git+https://github.com/talwrii/festival_lines#egg=festival_lines
+```
+
+# Examples / Cheat sheet
+
+```bash
+# say hello
+> echo hello | festival-lines
+hello
+
+```
+
+# Usage
+
+```
+{usage}
+```
